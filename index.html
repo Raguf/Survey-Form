@@ -12,12 +12,43 @@
       Thank you for taking the time to help us improve the platform
     </p>
     <form action="" id="survey-from">
-      <input type="text" id="name" required />
-      <label for="" id="name-label"></label>
-      <input type="email" id="email" required />
-      <label for="" id="email-label"></label>
-      <input type="number" id="number" min="13" max="120" />
-      <label for="" id="number-label"></label>
+      <input type="text" id="name" placeholder="Enter your name" required />
+      <label for="" id="name-label">Name</label>
+      <input type="email" id="email" placeholder="Enter your email" required />
+      <label for="" id="email-label">Email</label>
+      <input type="number" id="number" placeholder="Age" min="13" max="120" />
+      <label for="" id="number-label">Age</label>
+      <label for="dropdown"
+        >Which option best describes your current role?
+        <select name="" id="dropdown" name="dropdown">
+          <option value="">Select current role</option>
+          <option value="">Student</option>
+          <option value="">Full time job</option>
+          <option value="">Full time learner</option>
+          <option value="">Prefer not to say</option>
+          <option value="">Other</option>
+        </select>
+      </label>
+      Would you recommend freeCodeCamp to a friend?
+      <label for="recommend"
+        ><input type="radio" name="" id="recommend" checked />Definitely</label
+      >
+      <label for="recommend"
+        ><input type="radio" name="" id="recommend" />Maybe</label
+      >
+      <label for="recommend"
+        ><input type="radio" name="" id="recommend" />Not sure</label
+      >
+      <label for="dropdown"
+        >What is your favorite feature of freeCodeCamp?
+        <select name="" id="dropdown" name="dropdown">
+          <option value="">Select an option</option>
+          <option value="">Challenges</option>
+          <option value="">Projects</option>
+          <option value="">Community</option>
+          <option value="">Open Source</option>
+        </select>
+      </label>
     </form>
   </body>
 </html>
